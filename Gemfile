@@ -18,7 +18,7 @@ gem "jekyll", "~> 3.7.3"
 gem 'github-pages', '~>191', group: :jekyll_plugins
 gem "jekyll-theme-clean-blog"
 
-# If you have any plugins, put them here!
+# If~ you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
  # gem 'github-pages'
