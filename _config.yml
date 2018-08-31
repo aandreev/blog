@@ -22,6 +22,7 @@ url: "https://andreys.blog" # the base hostname & protocol for your site, e.g. h
 twitter_username: andro_a
 github_username:  aandreev
 linkedin_username: andro
+author: Andrey Andreev
 
 # Build settings
 markdown: kramdown
@@ -32,6 +33,13 @@ remote_theme: aandreev/startbootstrap-clean-blog-jekyll
 plugins:
   - jekyll-feed
 
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      author: "Andrey"
+        
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
